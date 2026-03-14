@@ -4,7 +4,7 @@
 
 访问：[https://wildgunhuang.github.io/loghorizoninfoai/](https://wildgunhuang.github.io/loghorizoninfoai/)
 
-![LOGO](loghorizoninfoai_logo.png)
+<img src="preview.png" width="256">
 
 **一、项目说明**：本项目是使用 AI 对《记录的地平线》（《ログ・ホライズン》）小说中各项设定的整理，主要用中文整理和记述。
 
