@@ -192,7 +192,9 @@ async function main() {
   const subtitle = document.getElementById("page-subtitle");
   const rawLink = document.getElementById("raw-link");
 
-  rawLink.href = file;
+  if (rawLink) {
+    rawLink.href = file;
+  }
 
   try {
     const markdown = await loadMarkdown(file);
