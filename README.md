@@ -4,6 +4,8 @@
 
 访问：[https://wildgunhuang.github.io/loghorizoninfoai/](https://wildgunhuang.github.io/loghorizoninfoai/)
 
+![LOGO](loghorizoninfoai_logo.png)
+
 **一、项目说明**：本项目是使用 AI 对《记录的地平线》（《ログ・ホライズン》）小说中各项设定的整理，主要用中文整理和记述。
 
 **二、原文来源**：主要整理的对象（即原文来源）是[小説家になろう！网站上《ログ・ホライズン》的内容](https://ncode.syosetu.com/n8725k/)，从该网站上获得纵向文字的可下载的全文 PDF 文档，并以该 PDF 及其中页码为来源出处的指示定位。
