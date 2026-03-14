@@ -163,11 +163,20 @@ function parseMarkdown(markdown) {
 }
 
 async function loadMarkdown(file) {
-  const response = await fetch(file);
-  if (!response.ok) {
-    throw new Error(`Failed to load ${file}`);
+  const candidates = [
+    file,
+    file.normalize("NFC"),
+    file.normalize("NFD"),
+  ].filter((value, index, array) => array.indexOf(value) === index);
+
+  for (const candidate of candidates) {
+    const response = await fetch(candidate);
+    if (response.ok) {
+      return response.text();
+    }
   }
-  return response.text();
+
+  throw new Error(`Failed to load ${file}`);
 }
 
 function titleFromMarkdown(markdown, fallback) {
